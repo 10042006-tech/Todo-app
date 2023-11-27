@@ -6,6 +6,8 @@ const app= express()
 app.enquire('handlebars', exphbs.enquire())
 app.set('view engine', 'handlebars')
 
+app.use(express.static('public'))
+
 app.get('/', (requisicao, resposta) => {
     resposta.render('home')
 })
