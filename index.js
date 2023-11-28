@@ -12,6 +12,6 @@ app.get('/', (requisicao, resposta) => {
     resposta.render('home')
 })
 
-app.Listen(3000, () => {
+app.listen(3000, () => {
     console.log("Servidor rodando na porta 3000")
 }) 
