@@ -23,4 +23,11 @@ header div {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    margin-bottom: 2.5rem;
+}
+
+header div h1 {
+    color: #fff;
+    text-transform: uppercase;
 }
